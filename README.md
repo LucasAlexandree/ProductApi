@@ -127,9 +127,3 @@ No Swagger UI, você pode testar todos os endpoints da API. Para cada endpoint, 
 3. Faça commit das suas alterações (`git commit -am 'Adicionando nova feature'`).
 4. Faça o push para a branch (`git push origin feature-nome`).
 5. Abra um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-
