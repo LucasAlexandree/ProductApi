@@ -58,6 +58,19 @@ No arquivo `appsettings.json`, configure a string de conexão para o banco de da
 
 ### 5. Execute as migrações (caso esteja utilizando Entity Framework)
 
+Restaurar as dependências: O testador deve restaurar as dependências do projeto se necessário, usando:
+
+Copiar código
+dotnet restore
+Gerar as migrações: O testador deve executar o comando para gerar a migração (se você não tiver enviado a migração já criada):
+
+Copiar código
+dotnet ef migrations add InitialCreate
+Aplicar as migrações:
+
+Copiar código
+dotnet ef database update
+
 
 ### 6. Execute a aplicação
 
