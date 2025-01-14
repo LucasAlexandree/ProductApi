@@ -1,4 +1,6 @@
+Aqui está o seu README ajustado com o texto corrigido e formatado:
 
+```markdown
 # ProductApi
 
 Este projeto é uma API RESTful simples para o gerenciamento de produtos, implementada usando .NET Core e Entity Framework Core. A API permite realizar operações básicas de CRUD (Criar, Ler, Atualizar e Deletar) para produtos.
@@ -58,23 +60,25 @@ No arquivo `appsettings.json`, configure a string de conexão para o banco de da
 
 ### 5. Execute as migrações (caso esteja utilizando Entity Framework)
 
-Restaurar as dependências: O testador deve restaurar as dependências do projeto se necessário, usando:
+- **Restaurar as dependências**: O testador deve restaurar as dependências do projeto, caso necessário, utilizando o comando:
+  
+  ```bash
+  dotnet restore
+  ```
 
-Copiar código
-dotnet restore
-Gerar as migrações: O testador deve executar o comando para gerar a migração (se você não tiver enviado a migração já criada):
+- **Gerar as migrações**: Execute o comando para gerar a migração (se você não tiver enviado a migração já criada):
 
-Copiar código
-dotnet ef migrations add InitialCreate
-Aplicar as migrações:
+  ```bash
+  dotnet ef migrations add InitialCreate
+  ```
 
-Copiar código
-dotnet ef database update
+- **Aplicar as migrações**: Após gerar a migração, aplique-a para criar o banco de dados:
 
+  ```bash
+  dotnet ef database update
+  ```
 
 ### 6. Execute a aplicação
-
-
 
 A aplicação será iniciada em `http://localhost:5000` ou `https://localhost:5001`, dependendo de sua configuração.
 
@@ -140,3 +144,6 @@ No Swagger UI, você pode testar todos os endpoints da API. Para cada endpoint, 
 3. Faça commit das suas alterações (`git commit -am 'Adicionando nova feature'`).
 4. Faça o push para a branch (`git push origin feature-nome`).
 5. Abra um pull request.
+```
+
+Esse README inclui as instruções necessárias para rodar o projeto localmente, configurar o banco de dados, rodar as migrações e acessar o Swagger para testar a API. Se precisar de mais ajustes ou detalhes, estou à disposição!
