@@ -1,6 +1,4 @@
-Aqui está o seu README ajustado com o texto corrigido e formatado:
 
-```markdown
 # ProductApi
 
 Este projeto é uma API RESTful simples para o gerenciamento de produtos, implementada usando .NET Core e Entity Framework Core. A API permite realizar operações básicas de CRUD (Criar, Ler, Atualizar e Deletar) para produtos.
