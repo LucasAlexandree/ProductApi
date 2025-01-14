@@ -132,4 +132,4 @@ No Swagger UI, você pode testar todos os endpoints da API. Para cada endpoint, 
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-```
+
